@@ -1,0 +1,16 @@
+{
+  version: 1,
+  mediaFileName: '02-Text-Voice-Performer-Interface.mp4',
+  cutSegments: [
+    {
+      start: 4.759405,
+      end: 42.271428,
+      name: '',
+    },
+    {
+      start: 143.88,
+      end: 170.862821,
+      name: '',
+    },
+  ],
+}

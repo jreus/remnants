@@ -1,0 +1,10 @@
+{
+  version: 1,
+  mediaFileName: 'VID_20200630_125329.mp4',
+  cutSegments: [
+    {
+      end: 22.443295,
+      name: '',
+    },
+  ],
+}

@@ -1,0 +1,417 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>In Search of Good Ancestors / Ahnen in Arbeit ~ NordiCHI 2022</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/talks.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+	</head>
+
+	<body>
+		<div class="reveal">
+
+			<div class="slides">
+
+				<section data-transition="slide-in fade-out" data-background-color="white">
+
+	        <div class="hl0">
+	        <h2>In Search of Good Ancestors / Ahnen in Arbeit</h2>
+	        </div>
+
+					<br />
+
+					<div class="hl3"><em>
+						<p>Jonathan Chaim Reus</p>
+						<p>University of Sussex, Sussex Humanities Lab</p>
+
+						</em>
+					</div>
+
+					<div>
+						<img src="media/logos/Sussex_Humanities_Lab_Logo.jpg" height="150px" />
+						<img src="media/logos/sussex_sensation_logo.png" height="150px" />
+					</div>
+
+					<p style="font-size:1.2rem; color: black; font-style: italic">Nordichi 2022, Aarhus</p>
+
+				</section>
+
+
+				<!--
+					In Search of Good Ancestors
+				-->
+				<section>
+					<span class="title">In Search of Good Ancestors / Ahnen in Arbeit</span>
+
+					<section data-transition="fade-in fade-out">
+						<h2>In Search of Good Ancestors / Ahnen in Arbeit</h2>
+						<p><em>A work in progress commissioned by CTM Festival, Deutschlandfunk Kultur & ÖRF Kunstradio</em></p>
+						<p>A year-long radio broadcast, artistic research process and series of workshops</p>
+
+						<div>
+							<img src="media/logos/CTM_logo.jpg" height="100px" />
+							<img src="media/logos/deutchlandfunk-kulture-logo.webp" height="100px" />
+							<img src="media/logos/ORF_1logo.gif" height="100px" />
+						</div>
+					</section>
+
+					<section data-transition="fade-in fade-out">
+						<ul>
+						<li>How can data driven machine learning be explored as a form of unstable memory? Specifically: working through the materiality of generative voice and text AI?</li>
+						<li>How to use this materiality to reflect on data+models as cultural objects, subverting fixity and singularity?</li>
+						<li>How can an "ancestral cosmology" create artistic interventions around AI data governance?</li>
+						</ul>
+					</section>
+
+
+				</section>
+
+
+
+				<!--
+				Prediction and Uncertainty
+				-->
+				<section>
+
+					<section data-transition="fade-in fade-out" data-background-image="media/isoga/Salk-child-Karsh-1956-polio-trials.jpg" data-background-size="contain" data-background-position="right">
+						<span class="title">Initial Conditions</span>
+
+						<div class="leftside">
+								<p class="smallquote">"Will future generations speak of the wisdom of their ancestors as we are inclined to speak of ours?</p>
+								<p class="smallquote">It is relevant and even part of wisdom to ask not only are we being good citizens of the world today, but are we being good ancestors."</p>
+								<p class="subtext"><em>Jonas Salk, Acceptance Address: Jawaharlal Nehru Award for International Understanding (1977)</em></p>
+						</div>
+
+						<aside>image: Jonas Salk, administering polio vaccine during early trials, 1956, source Wikimedia Commons</aside>
+
+					</section>
+
+
+
+					<section data-transition="fade-in fade-out">
+						<span class="title">Initial Conditions: Text Prediction</span>
+
+						<ul>
+						<li>BroadCaster models attempt to produce the likely what "should come next" from fragments of Jonas Salk's 1977 address</li>
+						<li>Text and Voice models start pre-trained on the most widely used ( "normative" ) open voice and text datasets</li>
+						<li>Text prompts and post-processing according to poetic rules and "magic word" annotations</li>
+						</ul>
+
+						<audio controls><source src="media/voice/WeAreNotDying-Livestream-FirstStage-short00.mp3" /></audio>
+						<p style="font-size: 0.9rem">Radio Stream recording February 12, 2022, a few days after broadcast launch</p>
+
+					</section>
+
+					<section data-transition="fade-in fade-out">
+						<span class="title">Initial Conditions: Voice Synthesis</span>
+						<ul>
+							<li>prosody is stretched and warped during synthesis</li>
+							<li>synthesized voice is transformed into non-human and multi-human voice using real-time VAEs* and spectral morphing</li>
+							<li>goal to create perceptual uncertainty in excess of the "single" or "authoritative" voice</p>
+						</ul>
+
+						<audio controls><source src="media/voice/WeAreNotDying-Livestream-FirstStage-short01.mp3" /></audio>
+						<p style="font-size: 0.9rem">Radio Stream recording April 22, 2022, prior to second workshop</p>
+
+						<p class="subtext">* RAVE variational autoencoder for fast and high-quality neural audio synthesis, Caillon and Esling 2021</p>
+
+					</section>
+
+			</section>
+
+			<!--
+				The Artificial BroadCaster
+			-->
+			<section>
+				<span class="title title-dark">The Artificial BroadCaster: Architecture</span>
+
+
+				<section data-transition="slide-in fade-out" data-background-image="media/isoga/ahnen_system_zoomedout_diagram.drawio.png" data-background-loop data-background-size="50%" data-background-color="white">
+				</section>
+
+			</section>
+
+
+			<section>
+				<span class="title title-dark">Website: ahnen.in</span>
+				<section data-background-video="media/isoga/Website-2022-02-06-Release-seg2.mp4" data-background-loop data-background-size="contain"></section>
+				<section data-background-video="media/isoga/Website-2022-03-30-02.mp4" data-background-loop data-background-size="contain"></section>
+			</section>
+
+				<!--
+				Fine Tuning as Dramaturgy
+				-->
+				<section>
+					<span class="title title-dark">Moving from Fixity and Singularity to Mutation</span>
+
+
+					<section>
+						<h3>This configuration of dataset and models is hermetic</h3>
+						<p>How to intervene?</p>
+					</section>
+
+					<section>
+						<h3>The workshop-intervention as a format</h3>
+						<ul>
+							<li>welcomes a plurality of voices (literally and figuratively)</li>
+							<li>allows the data, models, and BroadCaster to mutate in unexpected directions</li>
+							<li>models and artefact become an unstable documentation of the process</li>
+						</ul>
+					</section>
+
+					<section data-transition="slide-in fade-out" data-background-color="white" data-background-image="media/isoga/ahnen_process_dramaturgy_diagram.drawio.png" data-background-loop data-background-size="75%"></section>
+
+				</section>
+
+
+				<section>
+
+					<!-- span class="title-persistent-dark">Workshop 1 (March 2022) Re-reading / Re-writing, Online</span -->
+
+
+					<!--
+					(SLIDE - Workshop 1)
+					Workshop premise.
+					Intervening on text. Collecting text. Developing annotations and "magic words" - in collaboration with Varia.
+					(slide - Jupyter notebooks)
+					-->
+					<section data-transition="slide-in fade-out" data-background-color="white" data-background-image="media/isoga/ahnen_process_dramaturgy_diagram.drawio-1.png" data-background-loop data-background-size="75%">
+						<span class="title title-dark">Workshop 1 (March 2022) Re-reading / Re-writing, Online</span>
+						<p></p>
+					</section>
+
+					<section data-transition="fade-in fade-out" data-background-image="media/isoga/isoga-workshop1-skype.png" data-background-loop data-background-size="cover">
+						<span class="title title-dark">Workshop 1 (March 2022) Re-reading / Re-writing, Online</span>
+						<p></p>
+					</section>
+
+					<!-- Magic Words -->
+					<section data-transition="fade-in fade-out" data-background-image="media/isoga/isoga-workshop1-hilights2.png" data-background-loop data-background-size="fill" data-background-position="left">
+						<span class="title title-dark">Workshop 1: Poetic Rules as "Magic Words"</span>
+						<aside>workshop developed with artists from varia, Rotterdam (amy pickles, Joana Chicau, Cristina Cochoir)</aside>
+					</section>
+
+				</section>
+
+
+				<!--
+				(SLIDE - Workshop 2)
+				Workshop premise.
+				Intervening with voice. Exploring the experience of encountering one's voice identity disembodied and under the control of another. Investigations of data provenance and futurity of one's voice within an "ancestral" cosmology that emphasizes lineages of data and their comingling within the "memory" of a ML model.
+				(slide - Performance tools)
+				-->
+				<section>
+
+
+					<section data-transition="fade-in fade-out" data-background-color="white" data-background-image="media/isoga/ahnen_process_dramaturgy_diagram.drawio-2.png" data-background-loop data-background-size="75%">
+						<span class="title title-dark">Workshop 2 (May 2022) An Inaudible Chorus, CTM Berlin</span>
+					</section>
+
+					<section data-transition="fade-in fade-out" data-background-image="media/isoga/isoga-workshop2-3.jpg" data-background-loop data-background-size="cover">
+						<span class="title">Workshop 2: Choral Reading of Algorithmic Text</span>
+					</section>
+
+					<section data-transition="fade-in fade-out" data-background-image="media/isoga/isoga-workshop2-4.jpg" data-background-loop data-background-size="cover">
+						<span class="title">Workshop 2: Choral Reading of Algorithmic Text</span>
+					</section>
+
+					<section data-transition="fade-in fade-out" data-background-image="media/isoga/isoga-workshop2-1.jpg" data-background-size="cover">
+						<span class="title">Workshop 2: Choral Reading of Algorithmic Text</span>
+					</section>
+
+					<section data-transition="fade-in fade-out" data-background-image="media/isoga/isoga-workshop2-voiceswap-score.jpg" data-background-size="cover">
+						<span class="title">Workshop 2: Consensual Voice Swapping</span>
+					</section>
+
+					<section data-transition="fade-in fade-out" data-background-image="media/isoga/isoga-workshop2-chorus.jpg" data-background-loop data-background-size="cover">
+						<span class="title">Workshop 2: Hybrid Biological-Artificial Chorus</span>
+						<audio controls><source src="media/voice/InAudibleChorus_May272022_03_MixedScores-short.mp3" /></audio>
+						<p class="smalltext">Recording of Hybrid Chorus, May 27, 2022 at Morphine Raum, Berlin</p>
+
+						<aside>workshop developed with Eleni Ikoniadou and<br/>amy pickles, Joana Chicau, Cristina Cochoir (varia)</aside>
+
+					</section>
+
+				</section>
+
+
+				<section>
+
+					<section data-transition="fade-in fade-out">
+						<h2>Development of Workshop Tools</h2>
+					</section>
+
+					<section data-transition="fade-in fade-out" data-background-image="media/isoga/isoga-jupyter-voice.png" data-background-size="75%" data-background-position="center">
+						<span class="title title-dark">Portable Code: Jupyter Notebooks on Google Colab</span>
+					</section>
+
+					<section data-transition="fade-in fade-out" data-background-image="media/isoga/Inaudible-Voice-Interfaces/VoiceCloning-Interfaces.drawio.png" data-background-size="contain" data-background-position="right">
+						<span class="title title-dark">Voice Sharing & Performance Interfaces</span>
+					</section>
+
+					<section data-transition="fade-in fade-out" data-background-video="media/isoga/Inaudible-Voice-Interfaces/02-Text-Voice-Performer-Interface-sampler.mp4" data-background-position="center" data-background-size="contain">
+						<span class="title title-dark">Voice Sharing & Performance Interfaces</span>
+					</section>
+
+				</section>
+
+				<section>
+
+					<section data-transition="fade-in fade-out" data-background-color="white" data-background-image="media/isoga/ahnen_process_dramaturgy_diagram.drawio-3.png" data-background-loop data-background-size="75%">
+						<span class="title title-dark">Workshop 3 (Sept 2022) Ancestral Voice, Design Academy Eindhoven</span>
+					</section>
+
+					<section data-transition="fade-in fade-out" data-background-color="white" style="color: black" >
+						<span style="color: white" class="title title-dark">Workshop 3 (Sept 2022): Intergenerational Metadata</span>
+						<p class="smallquote">"This song is a lyrical masterpiece by one of the most influential composers in Slovakia. By recording my singing, I want to look back at the ways my father used to interpret this song about drug use to me and my sister when we were young."</p>
+
+						<br><br>
+						<audio controls><source src="media/isoga/DAE_DorisSiskova_snapshot.wav" /></audio>
+						<br><br>
+						<p class="smallquote">"I want this recording to archive my current experience of living in a liberal country and I want future generations after me to experience how sublime the Slovak language could be."</p>
+					</section>
+
+				</section>
+
+				<section>
+
+					<section data-transition="fade-in fade-out" data-background-size="75%" data-background-position="center">
+						<span class="title title-dark">Aesthetics & Poetics: Catastrophic Forgetting</span>
+						<audio controls><source src="media/voice/test_effi_to_amir_finetune2.wav" /></audio>
+						<p class="smalltext">This pre-trained voice model lost the ability to speak English after fine-tuning on 10 minutes of text-speech data</p>
+					</section>
+
+					<section data-transition="fade-in fade-out" data-background-size="75%" data-background-position="center">
+						<span class="title title-dark">Aesthetics & Poetics: Preservation of Identity</span>
+
+						<audio controls><source src="media/isoga/Workshop2-Shat-Human.wav" /></audio>
+						<audio controls><source src="media/isoga/Workshop2-Shat-Artificial.wav" /></audio>
+						<br /><br />
+						<audio controls><source src="media/isoga/Workshop2-GirlLikeYou-Human.wav" /></audio>
+						<audio controls><source src="media/isoga/Workshop2-GirlLikeYou-Artificial.wav" /></audio>
+						<br /><br />
+						<audio controls><source src="media/isoga/Workshop2-Siri-Human.wav" /></audio>
+						<audio controls><source src="media/isoga/Workshop2-Siri-Artificial.wav" /></audio>
+						<p class="smalltext">Examples of zero-shot voice cloning with workshop participants</p>
+					</section>
+
+				</section>
+
+
+
+				<!--
+				(SLIDE - Conclusion)
+				server to revitalize the text, change the character of the broadcaster, infuse it with new words and also new voices.
+				Thereby the process of learning, as the primary dramaturgy of the work. Developed through a series of workshops investigating different aspects of the system (LLM text generation, voice synthesis) and experimenting with ways of acting upon the training process.
+			-->
+				<section>
+
+					<section data-transition="fade-in fade-out" data-background-image="media/voice/ancestor_01.gif" data-background-position="right" data-background-size="30%">
+						<span class="title">Summary</span>
+
+						<ul class="leftlist">
+						<li>How can data driven machine learning be explored as a form of unstable memory? Specifically: working through the materiality of generative voice and text AI?</li>
+						<li>How to use this materiality to reflect on data+models as cultural objects, subverting fixity and singularity?</li>
+						<li>How can an "ancestral cosmology" create artistic interventions around AI data governance?</li>
+						</ul>
+
+					</section>
+
+					<section data-transition="fade-in fade-out" data-background-image="media/voice/ancestor_01.gif" data-background-position="right" data-background-size="30%">
+						<span class="title">Summary: Open Questions</span>
+						<ul class="leftlist">
+						<li>outcome of workshops in making the BroadCaster a mutating, unexpected, plural document</li>
+						<li>artistic methods of working through and with this medium: aspects of collage and remix</li>
+						<li>how to reflect on the BroadCaster at the end of its lifetime (Feb 2023)?</li>
+						<li>should it continue to exist in some form? if so, how?</li>
+						<li>next workshop: Dec 10 2022, varia Rotterdam</li>
+						</ul>
+
+					</section>
+
+				</section>
+
+
+				<section data-transition="slide-in fade-out" data-background-image="media/isoga/HisMastersVoice_Barraud_1898.jpg" data-background-position="right" data-background-size="contain">
+
+					<div class="leftside">
+						<h2><em>Q&A?</em></h2>
+
+						<div style="font-size: 1.2em">
+							<p>livestream: <a href="http://ahnen.in">ahnen.in</a></p>
+							<p class="subtext">Jonathan Chaim Reus
+								<br/>J.reus@sussex.ac.uk
+								<br/>website: <a href="http://jchai.me">jchai.me</a></p>
+							</p>
+						</div>
+						<div style="font-size: 1.0em">
+							<p class="subtext" style="text-align: left">
+								<b style="font-size: 1.3em">thanks to:</b><br>
+								varia ( Joana Chicau, amy pickles, Cristina Cochoir )<br>
+								Eleni Ikoniadou<br>
+								Rifke Sadleir ( <a href="https://dxr.zone/">dxr.zone</a> )<br>
+								Victor Shepardson ( Intelligent Instruments Lab )<br>
+								Eren Gölge & Josh Meyer ( <a href="https://coqui.ai/">coqui.ai</a> )<br>
+								Antoine Caillon ( ACIDS/IRCAM )<br>
+								CTM Festival, Deutschlandfunk Kultur & ORF Kunstradio<br>
+								Sussex Humanities Lab<br>
+								Leverhulme Trust
+							</p>
+						</div>
+						<br/><br/>
+						<p style="text-align: left; font-size: 0.9rem; max-width: 20vw">image: "His Masters Voice", Francis Barraud (1898) - Wikimedia Commons</p>
+					</div>
+
+
+				</section>
+
+
+
+
+
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				// The "normal" size of the presentation, aspect ratio will
+			  // be preserved when the presentation is scaled to fit different
+			  // resolutions. Can be specified using percentage units.
+			  width: 1260,
+			  height: 700,
+			  // Factor of the display size that should remain empty around
+			  // the content
+			  margin: 0.01,
+			  // Bounds for smallest/largest possible scale to apply to content
+			  minScale: 0.2,
+			  maxScale: 2.0,
+				hash: true,
+				dependencies: [
+					// Interpret Markdown in <section> elements
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/highlight/highlight.js' },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>

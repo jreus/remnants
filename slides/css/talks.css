@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'courgetteregular';
+    src: url('/fonts/courgette-regular-webfont.woff2') format('woff2'),
+         url('/fonts/courgette-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sansitalic';
+    src: url('/fonts/opensans-italic-variablefont_wdthwght-webfont.woff2') format('woff2'),
+         url('/fonts/opensans-italic-variablefont_wdthwght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'brygada_1918italic';
+    src: url('/fonts/brygada1918-italic-variablefont_wght-webfont.woff2') format('woff2'),
+         url('/fonts/brygada1918-italic-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'autopiaitalic';
+    src: url('/fonts/autopia-italic-webfont.woff2') format('woff2'),
+         url('/fonts/autopia-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+quote {
+  font-style: italic;
+  font-family: "'brygada_1918italic', Helvetica, sans-serif";
+  display: block;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 1.8rem;
+  display: block;
+  text-align: left;
+}
+
+.smallquote {
+  font-style: italic;
+  font-size: 1.2em;
+  line-height: 1.3em;
+  text-align: left;
+  display: inline;
+  margin: auto;
+  max-width: 50vw;
+}
+
+.smalltext {
+  font-size: 0.9rem;
+}
+
+.leftlist {
+  position: relative;
+  left: -10vw;
+  max-width: 40vw;
+}
+
+.hl0 {
+  font-family: "courgetteregular";
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 0.5em;
+  /* padding: 0.0em; */
+  color: #EEEEEE;
+  font-style:italic;
+  font-weight: lighter;
+  /* max-width: 50vw; */
+  /* margin: auto;
+  text-align: center;
+  vertical-align: middle; */
+}
+
+
+.hl1 {
+  background-color: rgba(10,0,0,0.7);
+  border-radius: 0.5em;
+  padding: 0.5em;
+  color: #EEEEEE;
+}
+
+.hl2 {
+  background-color: rgba(100,0,100,0.5);
+  border-radius: 0.5em;
+  padding: 0.5em;
+}
+
+.hl3 {
+  background-color: rgba(200,200,200,0.5);
+  border-radius: 0.5em;
+  padding: 0.5em;
+  color: black;
+  display: block;
+  margin: auto;
+  max-width: 40vw;
+}
+
+.leftside {
+  float: left;
+  max-width: 25vw;
+  text-align: left;
+}
+
+.subtext {
+  font-size: 1.0rem;
+  font-style: italic;
+  font-weight: lighter;
+  padding-left: 2em;
+  padding-top: 2em;
+  text-align: right;
+}
+
+aside {
+  position: fixed;
+  top: 80%;
+  left: 60%;
+  max-width: 40vw;
+  text-align: left;
+  /*float: right;*/
+  background-color: rgba(0,0,0, 0.8);
+  font-size: 1rem;
+  padding: 1rem;
+  font-style: italic;
+  border-radius: 0.1em;
+}
+
+.title {
+  border-radius: 0.1em;
+  padding: 0.1em 0.1em;
+  font-size: 1em;
+  font-weight: lighter;
+  font-style: italic;
+  background-color: rgba(0.2, 0.2, 0.2, 0.2);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.title-dark {
+  background-color: rgba(0.2, 0.2, 0.2, 0.9);
+}
+
+li {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  max-width: 60vw;
+}
+
+.slide-persistent {
+  position: absolute;
+  top: 30%;
+}
+
+.link {
+  font-family: monospace;
+  text-decoration: underline;
+  font-style: italic;
+  font-size: 1.0em;
+}
+
+.fillimage {
+  margin: 0;
+  padding: 0;
+  border: none;
+  max-width: none;
+  max-height: none;
+  min-width: 10px;
+  min-height: 10px;
+  border-radius: 10px;
+}
+
+.socialbutton {
+}
+
+div.socialbutton > a > img {
+  max-height: 50px;
+  border-radius: 10px;
+}
+
+
+.rowblock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.rowblock > div {
+  margin: 10px 10px;
+}
+
+p {
+  font-size: 1em;
+}
+
+@media screen and (orientation: landscape) {
+
+  .hl0 {
+    background-color: rgba(0,20,0,0.8)
+  }
+
+  img.fillimage {
+    max-width: 25%;
+  }
+
+}
+
+@media screen and (orientation: portrait) {
+  .hl0 {
+    background-color: rgba(20,0,0,0.8)
+  }
+
+  .rowblock {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  div.socialbutton > a > img {
+    max-height: 150px;
+    border-radius: 10px;
+  }
+
+
+  p {
+    font-size: 1.7em;
+    padding: 10vw;
+  }
+
+  img.fillimage {
+    max-width: 45%;
+  }
+}

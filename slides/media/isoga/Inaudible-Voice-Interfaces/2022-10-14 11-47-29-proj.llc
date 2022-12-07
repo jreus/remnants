@@ -1,0 +1,11 @@
+{
+  version: 1,
+  mediaFileName: '2022-10-14 11-47-29.mkv',
+  cutSegments: [
+    {
+      start: 67.3,
+      end: 178.939493,
+      name: '',
+    },
+  ],
+}
