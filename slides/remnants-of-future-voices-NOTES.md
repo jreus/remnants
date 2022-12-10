@@ -38,6 +38,8 @@ What if we can send a wish for our voice sample together with our consent for gi
 How to embed the wishes like they never disappear? Encode the wishes as audio inside, like a watermark. Transmitting audio only in frequency that are not audible.-->
 
 
+### Split in groups of 5
+
 ## 12:30 - 14:00 - Introduction to ideas & first exercise 
 
 ### Contribution to the dataset: http://192.168.1.115:3000/
