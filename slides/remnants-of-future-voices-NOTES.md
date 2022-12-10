@@ -7,20 +7,14 @@
 
 ## 12:00 - 12:30 - Introductions/ Discussing Data Ownership & Consent
 
-### Introduce ourselves
+### 12:00 - 12:05 - Introduce ourselves
 
-### Introduce the general project
-
-### Concept
-
+### 12:05 - 12:10 - Introduce the general project
 In this workshop we will explore ancestral cosmology through the figure of the clone in artificial voice technologies. The workshop will experiment with dialogues between the future and the past using voice avatars of ourselves and other participants, considering the implications of creating a clone that may speak to generations beyond our own lifetime.
-
 Data. Memory. Prediction. What traces of our living selves remain within machine learnings? What aspects of identity would we want to preserve, or do we choose to allow our clones to take on a completely different identity? How do we encode wishes and messages that exceed both our temporary bodies and recorded data? How do we populate a data+algorithmic memory space with remnants that carry possible messages - to be ancestors, as opposed to ghosts?
-
-
 You are asked to consider your own relationship to an open-ended conception of ancestry, relating to the ideas and actions of those having lived and those yet to be. The artistic contributions will be part of a process of collaboratively building datasets which are used to train the machine learning models of the artificial BroadCaster in the year-long radio broadcast >>In Search of Good Ancestors / Ahnen in Arbeit<< ( ahnen.in ) whose voices are shaped by learning the nuances of human and non-human recorded utterances.
 
-### More in depth
+### 12:10 - 12:15 - More in depth
 
 The example of Common Voice https://commonvoice.mozilla.org
 
