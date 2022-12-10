@@ -53,7 +53,7 @@ Outcomes:
 Recording Basics - introduce recording stations + how to record
 
 ## 13:30 - 13:45 Editing the sound in audacity Demo + Editing & Cleanup of Audio
-normalize whole file, noise reduction, super clean: noise gate only voice parts, trim silence or noises, a little bit of compression
+normalize whole file (remove DC, it makes the voice as loud as possible), noise reduction (10, 6.00, 6/ with residue you hear only the noise, what is been taken away), super clean: noise gate only voice parts (makes the voice pop put and edges of soft sounds are cut off, -30 is good), trim silence or noises, a little bit of compression (consistent on the volume throughout the recording, ratio 3:1 is good, attack time low)
 
 ## 13:45 - 14:00 Writing your wish & Uploading
 Think of and write your wish for your voice contribution?
